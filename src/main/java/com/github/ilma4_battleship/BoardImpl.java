@@ -54,7 +54,7 @@ public class BoardImpl extends Board {
         }
 
         StringBuilder res = new StringBuilder("  1 2 3 4 5 6 7 8 9 10\n");
-        for (int i = 0; i < SIZE; i++) {
+        for (int i = 0; i < getSize(); i++) {
             res.append(firstChar[i]);
             res.append(" ");
             for (var cell : board[i]) {
