@@ -1,7 +1,5 @@
 package com.github.ilma4_battleship;
 
-import java.io.InputStream;
-import java.util.Scanner;
 import java.util.function.Supplier;
 
 public class PointReader {
